@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+main {
+    text-align: center;
+}
+
+#keypad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 25px auto;
+    background-color: darkslategrey;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    width: 17%;
+    margin: 4%;
+    background-color: red;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51%;
+    background-color: lightgray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 17%;
+}
