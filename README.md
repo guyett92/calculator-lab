@@ -1,5 +1,2 @@
-#Technologies Used
-Jquery
-JavaScript
-HTML
-CSS
+# Technologies Used
+Jquery, JavaScript, HTML, CSS
