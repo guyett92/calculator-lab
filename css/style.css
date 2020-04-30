@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: Helvetica, sans-serif;
 }
 
 
@@ -29,12 +30,16 @@ main {
     align-items: center;
     font-size: 50px;
     font-weight: 700;
-    font-family: Helvetica, sans-serif;
     width: 17%;
     margin: 4%;
     background-color: red;
     border-radius: 50%;
     border: solid 2px white;
+}
+
+div:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .display {
@@ -46,8 +51,14 @@ main {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 100px;
+    font-size: 32px;
 }
 
-.logo {
+.display:hover {
+    opacity: 1;
+    cursor: default;
+}
+
+#logo {
     width: 17%;
 }
